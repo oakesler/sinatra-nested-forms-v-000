@@ -15,4 +15,3 @@ class Pirate
   end
  
 end
-end
