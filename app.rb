@@ -4,7 +4,12 @@ require './app/models/ship.rb'
 
 module FormsLab
   class App < Sinatra::Base
-    get '/' do 
+    
+    get "/" do 
+      erb :"pirates/index"
+    end
+    
+    get '/new' do 
       erb :"pirates/new" 
     end
     
